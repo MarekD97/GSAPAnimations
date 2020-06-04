@@ -1,0 +1,14 @@
+.star {
+    animation: starmove 2s cubic-bezier(.75, -0.5, 0, 1.75);
+}
+
+@keyframes starmove {
+    0% {
+        transform: translateY(-200px) rotate(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+        opacity: 1;
+    }
+}
