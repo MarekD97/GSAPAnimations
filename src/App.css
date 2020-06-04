@@ -38,7 +38,7 @@ h2 {
 
 .TextPage {
   width: 100%;
-  background-color: #d8d8d8;
+  background: linear-gradient(190deg, #b6b6b6, #d8d8d8 50%);
 }
 
 .header {
@@ -70,7 +70,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(190deg, #b6b6b6, transparent 50%);
 }
 
 .main h1 {
@@ -119,4 +118,30 @@ h2 {
 
 .footer p, .footer h1 {
   margin: 12px 0;
+}
+
+.comparation {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    position: sticky;
+  }
+  .list {
+    flex-direction: column;
+    margin: 0 6px;
+  }
+  .list-item {
+    margin: 6px 0;
+  }
+  .main svg {
+    width: 90%;
+  }
+  .comparation {
+    flex-direction: column;
+  }
+  .comparation div {
+    height: 100vh;
+  }
 }

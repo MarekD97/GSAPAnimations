@@ -23,12 +23,16 @@ const ComparationPage = () => {
             });
     }, []);
     return (
-        <div>
-            <div ref={wrapper} className="App">
-                <Star />
+        <div className="App comparation">
+            <div >
+                <h1>GSAP</h1>
+                <span ref={wrapper}>
+                    <Star />
+                </span>
             </div>
-            <div className="App">
-                <Star class="star" />
+            <div>
+                <h1>CSS Keyframes</h1>
+                <Star className="star" />
             </div>
         </div>
     );
