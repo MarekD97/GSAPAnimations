@@ -81,7 +81,7 @@ const TemplatePage = () => {
                 })
         }
 
-    })
+    }, []);
     return (
         <div className="TextPage">
             <header className="header">

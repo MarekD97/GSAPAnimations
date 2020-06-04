@@ -15,7 +15,7 @@ function App() {
         for (let element of elements) {
             tl.fromTo(element, { y: '-=100' }, { duration: .7, y: '+=100', autoAlpha: 1 }, '-=0.4');
         }
-    }, []);
+    });
 
     return (
         <div ref={wrapper} className="App">

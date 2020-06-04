@@ -50,7 +50,7 @@ function SmallTownPage() {
       .fromTo(moon, { rotate: '-=45deg' }, { duration: 1, rotate: '+=45deg', autoAlpha: 1 })
       .to(wrapper.current, { backgroundColor: '#222222' }, '-=1');
 
-  }, [])
+  }, []);
   return (
     <div ref={wrapper} className="App">
       <SmallTown />

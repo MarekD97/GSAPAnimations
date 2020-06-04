@@ -21,7 +21,7 @@ const ComparationPage = () => {
                 autoAlpha: 6,
                 ease: "elastic"
             });
-    })
+    }, []);
     return (
         <div>
             <div ref={wrapper} className="App">
